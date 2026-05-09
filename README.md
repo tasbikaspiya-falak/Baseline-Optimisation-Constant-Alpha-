@@ -31,7 +31,7 @@ This project simulates aircraft glide motion using a simplified aerodynamic mode
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 Python · NumPy · SciPy · Matplotlib
 
