@@ -1,12 +1,12 @@
-# ✈️ Glide Simulator – Constant Angle Optimization
+#  Glide Simulator – Constant Angle Optimization
 
-## 📌 Overview
+##  Overview
 
 This project simulates aircraft glide motion using a simplified aerodynamic model and finds the **optimal constant angle of attack (α)** for maximum glide range.
 
 ---
 
-## 🎯 Goal
+##  Goal
 
 * Simulate glide trajectory using lift and drag forces
 * Optimize angle of attack for maximum horizontal range
@@ -14,7 +14,7 @@ This project simulates aircraft glide motion using a simplified aerodynamic mode
 
 ---
 
-## 🧠 Model
+##  Model
 
 * Lift: ( C_L = C_{Lα} (α - α_0) )
 * Drag: ( C_D = C_{D0} + K C_L^2 )
@@ -22,7 +22,7 @@ This project simulates aircraft glide motion using a simplified aerodynamic mode
 
 ---
 
-## 📊 Features
+##  Features
 
 * Glide simulation with constant α
 * Optimization using `scipy.optimize.minimize_scalar`
@@ -37,7 +37,7 @@ Python · NumPy · SciPy · Matplotlib
 
 ---
 
-## ▶️ Run
+##  Run
 
 ```bash id="r1"
 python main.py
@@ -45,6 +45,6 @@ python main.py
 
 ---
 
-## 📌 Result
+##  Result
 
 Outputs optimal α and maximum glide range with performance plot.
